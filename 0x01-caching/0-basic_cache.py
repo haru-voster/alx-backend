@@ -10,7 +10,8 @@ class BasicCache(BaseCaching):
     ''' A basic cache.
         Inherits from class BaseCaching.
         Attributes:
-          put - method that adds a key/value pair to cache and get - method that retrieves a key/value pair from cache
+          put - method that adds a key/value pair to cache
+          get - method that retrieves a key/value pair from cache
     '''
 
     def put(self, key, item):
